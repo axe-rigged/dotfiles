@@ -1,1 +1,6 @@
-/home/alex/.config/autostart/polybar.desktop
+[Desktop Entry]
+Type=Application
+Exec=/home/alex/.config/polybar/launch.sh
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name=Polybar
