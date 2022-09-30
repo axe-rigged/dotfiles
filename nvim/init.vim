@@ -40,7 +40,11 @@ nmap <F8> :TagbarToggle<CR>
 :colorscheme poimandres
 :set termguicolors " sets nvim/vim colorscheme in terminal
 :set background=dark
-" :set t_Co=256
+" Cursor color for seeing clearer
+highlight Cursor guifg=black guibg=#fcc5e9
+highlight iCursor guifg=black guibg=#fcc5e9
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
