@@ -20,6 +20,7 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal not sure if needed
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors not sure if needed
 Plug 'https://github.com/tpope/vim-fugitive' " For git status and few commands
+Plug 'nvim-treesitter/nvim-treesitter' "treesitter
 
 set encoding=UTF-8
 
@@ -49,12 +50,11 @@ set guicursor+=i:ver100-iCursor
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
-" For poimandres colorscheme
-" Lualine
+" For look
+" Lualine and poimandres setupt
 lua << END
 require('lualine').setup()
 END
-" poimandres
 lua << EOF
   require('poimandres').setup {
   }
