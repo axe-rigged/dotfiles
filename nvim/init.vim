@@ -42,16 +42,16 @@ nmap <F8> :TagbarToggle<CR>
 :set termguicolors " sets nvim/vim colorscheme in terminal
 :set background=dark
 " Cursor color for seeing clearer
-highlight Cursor guifg=black guibg=#fcc5e9
-highlight iCursor guifg=black guibg=#fcc5e9
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:ver100-iCursor
+highlight xCursor guifg=black guibg=#fcc5e9
+highlight yCursor guifg=black guibg=#fcc5e9
+:set guicursor=n-v-c:block-xCursor
+:set guicursor+=i:ver100-yCursor
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 " For look
-" Lualine and poimandres setupt
+" Lualine and poimandres setupt END END
 lua << END
 require('lualine').setup()
 END

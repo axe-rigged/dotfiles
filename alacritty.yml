@@ -175,7 +175,7 @@ colors:
   # Cursor colors
   cursor:
     text: CellBackground
-    cursor: CellForeground
+    cursor: "#FCC5E9"
 
   # Search colors
   #
