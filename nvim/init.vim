@@ -31,9 +31,13 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
+" my basic keybinds
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 :imap <c-d> <Esc>
+:nmap <c-j> <c-d>zz
+:nmap <c-k> <c-u>zz
+
 
 nmap <F8> :TagbarToggle<CR>
 :set completeopt-=preview " For No Previews
