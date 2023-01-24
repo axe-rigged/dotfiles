@@ -1,6 +1,0 @@
-{
-	"name":"Default",
-	"groups": {
-		"user": {"fg": "black", "bg": "brightcyan", "attrs": ["bold"]}
-	}
-}
