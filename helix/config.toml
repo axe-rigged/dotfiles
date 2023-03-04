@@ -1,0 +1,19 @@
+theme = "mytheme"
+
+[editor]
+mouse = false
+true-color = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[keys.normal]
+C-j = ["page_down", "align_view_center"]
+C-k = ["page_up", "align_view_center"]
+C-s = ":w"
+
+[keys.insert]
+C-d = "normal_mode"
+C-s = ":w"
