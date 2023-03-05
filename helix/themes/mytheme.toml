@@ -1,6 +1,18 @@
 "ui.cursor" = {bg = "#FCC5E9", fg = "black"}
 "ui.selection" = {bg = "light-green", fg = "black"}
 
+"ui.background" = {bg = "light-black"}
+
+#attribute = "light-magenta"
+keyword = "blue"
+#variable = "magenta"
+type = "red"
+function = "white"
+comment = "cyan"
+string = "green"
+"constant.numeric" = "yellow"
+"constant.character.escape" = "yellow"
+
 [palette]
 black = "0x1b1e28"
 red = "0xd0679d"
