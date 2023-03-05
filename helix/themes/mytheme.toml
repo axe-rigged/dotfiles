@@ -1,14 +1,15 @@
 "ui.cursor" = {bg = "#FCC5E9", fg = "black"}
 "ui.selection" = {bg = "light-green", fg = "black"}
 
+"ui.text" = {fg = "white"}
 "ui.background" = {bg = "light-black"}
 
 #attribute = "light-magenta"
-keyword = "blue"
+keyword = "light-blue"
 #variable = "magenta"
 type = "red"
-function = "white"
-comment = "cyan"
+function = "green"
+comment = "#B6B6B6"
 string = "green"
 "constant.numeric" = "yellow"
 "constant.character.escape" = "yellow"
